@@ -1,0 +1,25 @@
+# NOTICE
+
+## 上游项目
+
+本项目的聊天界面与聊天逻辑来自 **chat-demo**：
+
+- 仓库：https://github.com/deepseek-ai/chat-demo
+- 版权：Copyright (c) 2026 DeepSeek
+- 许可证：MIT（全文见 `chatdemo/app/LICENSE`）
+
+## 本项目新增/修改
+
+- `android/`：无 Gradle 的 Android 构建链、WebView 宿主、SAF 文件选择与 ZIP 保存桥；
+- `src/native-shell/`：首次启动引导（导出 → 导入 → API Key）；
+- `chatdemo/app/src/native.ts`：`__dsImport` / `__dsHasData` / `__dsReady` / `__dsSetKey` 四个钩子；
+- `chatdemo/app/src/services/chatBackground.ts` 与设置项：聊天背景；
+- 品牌：DQEAE 名称、DQ 图标、青柠配色——均为本项目原创，不使用 DeepSeek 官方标识。
+
+## 商标声明
+
+DeepSeek 是其权利人的商标。**DQEAE 是非官方项目，与 DeepSeek 及其关联公司没有隶属、合作或背书关系。**
+
+## 图标
+
+`android/res/dqeae/` 与 `brand/` 下的图标、封面为原创素材，随项目以 MIT 许可证提供。

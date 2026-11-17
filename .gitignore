@@ -1,0 +1,53 @@
+# 依赖与构建产物
+chatdemo/app/node_modules/
+chatdemo/app/.pnpm-store/
+chatdemo/app/dist/
+chatdemo/app/.github/
+android/build/
+android/toolchain/
+dist/
+pwa/
+
+# 密钥：绝对不要提交
+android/keystore/
+*.keystore
+*.jks
+
+# 临时文件与草稿
+chatdemo/*.tar.gz
+chatdemo/src/
+chatdemo/*.mjs
+!chatdemo/build.mjs
+chatdemo/*.html
+chatdemo/main.js
+chatdemo/main.css
+namecheck/
+*.log
+.DS_Store
+
+# 下载/探测脚本与 SDK 清单
+/android/repository2-1.xml
+/android/probe*.mjs
+/android/download*.mjs
+/android/fetch-repo.mjs
+/tools/make-icons.py
+
+# 早期网页工具与产品草稿（不属于 DQEAE 仓库）
+/build.mjs
+/check.mjs
+/test/
+/src/kit.js
+/src/merge.template.html
+/src/chat.template.html
+/src/pwa/
+/PLAN.md
+/DEPLOY.md
+
+# 早期图标与脚本
+android/res/chat/
+android/res/merge/
+android/res/whale/
+android/make-whale.py
+android/make-icons.py
+android/verify-whale.py
+android/verify-apk.py
